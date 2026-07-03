@@ -1242,11 +1242,53 @@ textarea.is-invalid {
     .hero-banner {
         grid-template-columns: 1fr;
         text-align: center;
-        padding: 2rem 1.5rem;
+        padding: 2.5rem 1.5rem 2rem;
     }
 
     .hero-left {
         order: -1;
+    }
+
+    .hero-decor {
+        inset: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .decor-wave {
+        top: -40px;
+        right: -20px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .decor-dots {
+        top: 12px;
+        bottom: auto;
+        right: 14px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .decor-icon-1 {
+        top: 8%;
+        right: 26%;
+    }
+
+    .decor-icon-2 {
+        top: 42%;
+        right: 6%;
+    }
+
+    .decor-icon-3 {
+        top: 56%;
+        bottom: auto;
+        right: 24%;
+    }
+
+    .decor-icon-4 {
+        top: 20%;
+        right: 52%;
     }
 
     .hero-logo {
